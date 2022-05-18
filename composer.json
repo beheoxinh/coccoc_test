@@ -1,0 +1,29 @@
+{
+    "require": {
+
+        "php": "^8."
+
+    },
+    "require-dev": {
+
+        "phpunit/phpunit": "^8.5"
+
+    },
+    "autoload": {
+		"psr-0": {
+			"App":"./",
+            "Controllers": "app/",
+            "Models" : "app/",
+            "Modules" : "app/",
+            "Pattern" : "app/",
+            "Raw" : "./"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Tests\\": "tests/"
+        }
+
+    }
+
+}
